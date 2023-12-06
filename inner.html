@@ -1,0 +1,216 @@
+<!--  
+Sreehari Prathap
+Sprathap3199@conestogac.on.ca
+section 6 
+890199
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA VI </title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <div class="project-header">
+                <a href="./index.html">
+                    <img src="./images/i-re-made-my-personal-favorite-gta-6-logo-without-the-six-v0-tqhxjkprk25b1.png"
+                        class="logo" alt="logo image">
+                </a>
+                <div class="project-name">
+                    <h1>GRAND THEFT AUTO VI </h1>
+                    <p>Sreehari Prathap | Sprathap3199@conestogac.on.ca</p>
+                </div>
+            </div>
+            <div class="ribbon"></div>
+            <nav class="navbar">
+                <ul class="link-items">
+                    <li class="link" id="dropdown"><a href="#">Features 🔻</a>
+                        <ul id="dropdown-menu">
+                            <li><a class="drop-down-link" href="#trailer">Trailer</li></a>
+                            <li><a class="drop-down-link" href="#features-table">Gameplay features</li></a>
+                            <li><a class="drop-down-link" href="#form">Feedback form</li></a>
+                        </ul>
+                    </li>
+                    <li class="link"><a href="https://www.rockstargames.com/" target="_blank">Rockstar games ▶️</a></li>
+                    <li class="link"><a href="https://socialclub.rockstargames.com/" target="_blank">Social club ▶️</a>
+                    </li>
+                    <li class="link"><a href="https://store.rockstargames.com/" target="_blank">Rockstars store ▶️</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="ribbon"></div>
+        </header>
+        <div class="sections">
+
+            <section class="inner-hero">
+                <h1>Game of the decade</h1>
+            </section>
+            <section class="feature" id="trailer">
+                <div>
+                    <h2>The Grand re entry</h2>
+                    <p>Introducing Grand Theft Auto VI – a thrilling leap into the next generation of open-world gaming.
+                        Immerse yourself in the neon-lit paradise of the modern Vice City, where sun-soaked beaches meet
+                        towering skyscrapers, and the pulse of the city beats with a rhythm all its own.</p>
+                </div>
+                <video controls poster="./images/GTA-6-4K-Wallpaper.jpg" class="video">
+                    <source src="./media/gta6.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+
+            <section class="information-table" id="features-table">
+                <h2>GTA VI - Gameplay Features</h2>
+                <table summary="Comparison of gameplay features on PS5, Xbox, and PC">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>PS5</th>
+                            <th>Xbox</th>
+                            <th>PC</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Framerate</td>
+                            <td>240fps</td>
+                            <td>240fps</td>
+                            <td>240fps</td>
+                        </tr>
+                        <tr>
+                            <td>Response Time</td>
+                            <td>Low latency</td>
+                            <td>Low latency</td>
+                            <td>Low latency</td>
+                        </tr>
+                        <tr>
+                            <td>VR Support</td>
+                            <td>Compatible with PSVR</td>
+                            <td>Compatible with VR headsets</td>
+                            <td>Supports various VR platforms</td>
+                        </tr>
+                        <tr>
+                            <td>Price</td>
+                            <td>$499</td>
+                            <td>$499</td>
+                            <td>$599</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p><cite>Refernce data collected from </cite><a
+                        href="https://www.gameleap.com/news/gta-6-pc-requirements-what-will-you-need-to-explore-vice-city">https://www.gameleap.com/news/gta-6-pc-requirements-what-will-you-need-to-explore-vice-city</a>
+                </p>
+            </section>
+            <section class="form-section" id="form">
+                <h2>GTA VI - Feedback Form</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="platform">Preferred Gaming Platform:</label>
+                        <select id="platform" name="platform" required>
+                            <optgroup label="Consoles">
+                                <option value="ps5">PS5</option>
+                                <option value="xbox">Xbox Series X</option>
+                            </optgroup>
+                            <optgroup label="PC">
+                                <option value="windows">Windows</option>
+                                <option value="linux">Linux</option>
+                                <option value="mac">Mac</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback">Feedback on the Trailer:</label>
+                        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                    </div>
+                    <div class="checkbox">
+
+                        <label>Which features are you most excited about?</label>
+                        <div>
+                            <input type="checkbox" id="graphics" name="features" value="graphics">
+                            <label for="graphics">Graphics</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="storyline" name="features" value="storyline">
+                            <label for="storyline">Compelling Storyline</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="multiplayer" name="features" value="multiplayer">
+                            <label for="multiplayer">Multiplayer Experience</label>
+                        </div>
+                    </div>
+
+                    <div class="radio">
+                        <label>Preferred Control Scheme:</label>
+                        <div>
+                            <input type="radio" id="controller" name="control" value="controller">
+                            <label for="controller">Controller</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="keyboard" name="control" value="keyboard">
+                            <label for="keyboard">Keyboard and Mouse</label>
+                        </div>
+                    </div>
+
+                    <div class="button-group">
+                        <button type="reset" id="reset">Reset</button>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+        <!-- footer section  -->
+        <footer class="site-footer">
+            <div class="footer-menu">
+                <div class="footer-column">
+                    <a href="#">
+                        <h4>Features</h4>
+                    </a>
+                    <a href="#trailer">Watch trailer</a>
+                    <a href="#features-table">Gameplay features</a>
+                    <a href="#form">Feedback form</a>
+                </div>
+                <div class="footer-column">
+                    <a href="https://www.rockstargames.com/" target="_blank">
+                        <h4>Rockstar</h4>
+                    </a>
+                    <a href="https://www.rockstargames.com/" target="_blank">Rockstar games</a>
+                    <a href="https://socialclub.rockstargames.com/" target="_blank">Store</a>
+                    <a href="https://store.rockstargames.com/" target="_blank">Social club</a>
+                </div>
+                <div class="footer-column">
+                    <a href="https://www.rockstargames.com/newswire" target="_blank">
+                        <h4>Social</h4>
+                    </a>
+                    <a href="https://twitter.com/RockstarGames?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                        target="_blank">Rockstar games@twitter</a>
+                    <a href="https://en.wikipedia.org/wiki/Rockstar_Games" target="_blank">Rockstar games@wiki</a>
+                    <a href="https://www.youtube.com/@RockstarGames" target="_blank">Rockstar games@youtube</a>
+                </div>
+            </div>
+            <div class="copyright-info">
+                <p>&copy; 2023 Sreehari Prathap | Sprathap3199@conestogac.on.ca</p>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>
